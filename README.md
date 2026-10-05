@@ -55,7 +55,7 @@ Professores · Alunos · Responsáveis · Secretaria · Gestores · Equipe técn
 
 | Pasta | Descrição |
 |---|---|
-| [`docs/documento-de-visao.pdf`](docs/documento-de-visao.pdf) | Documento de Visão completo |
+| [`Documento_de_Visao_Triledu_c.docx`](docs/documento-de-visao.pdf) | Documento de Visão completo |
 | [`docs/diagramas/`](docs/diagramas) | Casos de uso, classes, objetos, componentes, estados, atividades e sequência |
 | [`prototipos/`](prototipos) | Telas prototipadas (versões 1 e 2) |
 
