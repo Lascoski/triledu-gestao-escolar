@@ -1,18 +1,20 @@
 # Triledu – Plataforma de Gestão Escolar
 
-> 📄 **Status:** Documentação e prototipação. **O software não foi desenvolvido.**
-> Este repositório contém apenas o Documento de Visão e artefatos de análise.
+> **Status:** fase de documentação e prototipação. **O software ainda não foi desenvolvido.**
+> Este repositório contém apenas o Documento de Visão e os artefatos de análise.
 
-Projeto acadêmico do curso de **Bacharelado em Engenharia de Software (4º período)**
+Projeto acadêmico do curso de **Bacharelado em Engenharia de Software (4º período)** do **UGV – Centro Universitário**, União da Vitória – PR.
+
+## 📄 Documento de Visão
+
+- **[Ler o Documento de Visão (Markdown, abre direto no GitHub)](docs/documento-de-visao.md)**
+- [Baixar em PDF](docs/Documento_de_Visao_Triledu.pdf) · [Baixar em Word (.docx)](docs/Documento_de_Visao_Triledu.docx)
 
 ## Sobre o projeto
 
-O Triledu é uma proposta de plataforma web responsiva para integrar, em um único
-ambiente, os processos administrativos, pedagógicos e de comunicação de instituições
-de ensino. A ideia é reduzir a burocracia e facilitar a interação entre secretaria,
-professores, alunos, responsáveis e gestores.
+O Triledu é uma proposta de plataforma web responsiva que integra, em um único ambiente, os processos administrativos, pedagógicos e de comunicação de instituições de ensino, reduzindo a burocracia e facilitando a interação entre secretaria, professores, alunos, responsáveis e gestores.
 
-## Problema que se propõe a resolver
+## Problemas que se propõe a resolver
 
 - Sistemas instáveis e com interfaces pouco intuitivas
 - Suporte técnico lento
@@ -29,8 +31,7 @@ professores, alunos, responsáveis e gestores.
 - Matrícula e rematrícula
 - Quadro de avisos e comunicados
 - Emissão de relatórios (PDF/Excel) e certificados
-- Plano de aula
-- Registro de ocorrências
+- Plano de aula e registro de ocorrências
 - Backup, histórico de alterações e validação de dados (RA, CPF)
 
 ## Perfis de usuário
@@ -40,42 +41,34 @@ Professores · Alunos · Responsáveis · Secretaria · Gestores · Equipe técn
 ## Arquitetura planejada
 
 - **Modelo:** cliente-servidor, aplicação web responsiva
-- **Front-end:** painéis por perfil (web/mobile)
 - **Back-end:** API REST com regras de negócio
 - **Banco de dados:** PostgreSQL (relacional), com NoSQL em casos específicos
 - **Integrações previstas:** e-mail/push, API do MEC, AVAs (Google Classroom/Moodle), gateways de pagamento
 
-## Requisitos de qualidade (metas)
+## Metas de qualidade
+
 - Disponibilidade mínima de 99%
 - Carregamento de páginas em até 3 segundos
 - Conformidade com a LGPD
 - Escalabilidade para redes de ensino
 
-## Conteúdo do repositório
-
-| Pasta | Descrição |
-|---|---|
-| [`Documento_de_Visao_Triledu_c.docx`](docs/documento-de-visao.pdf) | Documento de Visão completo |
-| [`docs/diagramas/`](docs/diagramas) | Casos de uso, classes, objetos, componentes, estados, atividades e sequência |
-| [`prototipos/`](prototipos) | Telas prototipadas (versões 1 e 2) |
-
 ## Diagramas
 
-![Diagrama de casos de uso](docs/diagramas/casos-de-uso.png)
+![Diagrama de casos de uso](docs/imagens/media/496708ec66b52e234a0f091133b02a82c11de433.png)
 
-## Protótipos de tela
-
-![Tela de faltas](prototipos/telas-v2/faltas.png)
+Os demais diagramas e os protótipos de tela estão na seção 5 do [Documento de Visão](docs/documento-de-visao.md).
 
 ## Equipe
 
-- Ana B, Felipe B, Luana P, Natali Lascoski, Rafael R
+Ana Vitória Basniak · Felipe Bernardino Silva · Gabriel Henrique Libmann · Igor Andriel Hetman · Luana Gabrielly Pszymus · Natali Lascoski · Rafael Roiek Correa
 
 ## Próximos passos
 
-- [ ] Finalizar seções pendentes do Documento de Visão (cronograma, precedência e prioridade)
-- [ ] Definir stack tecnológica
+- [ ] Definir a stack tecnológica
+- [ ] Desenvolver o back-end e o banco de dados
+- [ ] Implementar o front-end a partir dos protótipos
+- [ ] Testes de usabilidade com professores e responsáveis
 
 ## Licença
 
-Documentação distribuída sob a licença [MIT/CC BY 4.0].
+Veja o arquivo [LICENSE](LICENSE).
