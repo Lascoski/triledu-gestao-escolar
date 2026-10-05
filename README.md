@@ -54,7 +54,7 @@ Professores · Alunos · Responsáveis · Secretaria · Gestores · Equipe técn
 
 ## Diagramas
 
-![Diagrama de casos de uso](docs/imagens/media/496708ec66b52e234a0f091133b02a82c11de433.png)
+![Diagrama de casos de uso](docs/imagens/)
 
 Os demais diagramas e os protótipos de tela estão na seção 5 do [Documento de Visão](docs/documento-de-visao.md).
 
@@ -65,9 +65,6 @@ Ana Vitória Basniak · Felipe Bernardino Silva · Gabriel Henrique Libmann · I
 ## Próximos passos
 
 - [ ] Definir a stack tecnológica
-- [ ] Desenvolver o back-end e o banco de dados
-- [ ] Implementar o front-end a partir dos protótipos
-- [ ] Testes de usabilidade com professores e responsáveis
 
 ## Licença
 
